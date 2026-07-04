@@ -202,11 +202,11 @@ body{font-family:'Noto Serif KR',serif;background:var(--cream);overflow:hidden}
 .comment-list::-webkit-scrollbar-thumb{background:#fca5a5;border-radius:2px}
 
 /* 입력 폼 */
-.comment-form{background:#fff;border-radius:16px;box-shadow:0 8px 32px rgba(185,28,28,.1);padding:1.4rem;display:flex;flex-direction:column;gap:.8rem}
+.comment-form{background:#fff;border-radius:16px;box-shadow:0 8px 32px rgba(185,28,28,.1);padding:1.4rem;display:flex;flex-direction:column;gap:.8rem;box-sizing:border-box;width:100%}
 .comment-form-top{display:flex;align-items:center;gap:.8rem}
 .emoji-pick-btn{font-size:2rem;background:#fff5f5;border:2px solid #fca5a5;border-radius:50%;width:52px;height:52px;cursor:pointer;transition:transform .2s;flex-shrink:0;display:flex;align-items:center;justify-content:center}
 .emoji-pick-btn:hover{transform:scale(1.1)}
-.comment-name{flex:1;border:1.5px solid #fecaca;border-radius:10px;padding:.6rem 1rem;font-size:.95rem;font-family:'Noto Serif KR',serif;outline:none;transition:border-color .2s;user-select:text}
+.comment-name{flex:1;min-width:0;border:1.5px solid #fecaca;border-radius:10px;padding:.6rem 1rem;font-size:.95rem;font-family:'Noto Serif KR',serif;outline:none;transition:border-color .2s;user-select:text;box-sizing:border-box}
 .comment-name:focus{border-color:#ef4444}
 
 /* 이모지 팔레트 */
